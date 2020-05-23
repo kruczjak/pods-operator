@@ -1,0 +1,7 @@
+apiVersion: pods-operator.k8s.io/v1alpha1
+kind: DeploymentManager
+metadata:
+  name: example-deploymentmanager
+spec:
+  # Add fields here
+  size: 3
